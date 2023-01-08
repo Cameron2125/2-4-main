@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>resources/CS3M_logo.png</file>
+        <file>resources/cool goblin drawing.png</file>
+        <file>resources/Image from iOS.png</file>
+        <file>resources/shop1.PNG</file>
+        <file>resources/shop2.PNG</file>
+        <file>resources/shop5.PNG</file>
+        <file>resources/shop6.PNG</file>
+        <file>resources/shop7.PNG</file>
+        <file>resources/shop8.PNG</file>
+        <file>resources/shop9.PNG</file>
+        <file>resources/shop10.PNG</file>
+        <file>resources/shop11.PNG</file>
+        <file>resources/shop12.PNG</file>
+        <file>resources/shop13.PNG</file>
+        <file>resources/shop14.PNG</file>
+        <file>resources/shop15.PNG</file>
+        <file>resources/shop16.PNG</file>
+        <file>resources/badge1-removebg-preview.png</file>
+        <file>resources/badge2-removebg-preview.png</file>
+        <file>resources/badge3-removebg-preview.png</file>
+        <file>resources/badge4-removebg-preview.png</file>
+        <file>resources/badge5-removebg-preview.png</file>
+        <file>resources/badge6-removebg-preview.png</file>
+        <file>resources/badge7-removebg-preview.png</file>
+    </qresource>
+</RCC>

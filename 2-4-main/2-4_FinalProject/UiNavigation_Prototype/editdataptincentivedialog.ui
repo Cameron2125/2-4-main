@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>editDataPtIncentiveDialog</class>
+ <widget class="QDialog" name="editDataPtIncentiveDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="dataPt_label">
+       <property name="text">
+        <string>Data Point</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="dataPt_combo">
+       <item>
+        <property name="text">
+         <string>First Name</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Last Name</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Age</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Gender</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ethnicity</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Education</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Occupation</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="point_label">
+       <property name="text">
+        <string>Point Value</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="point_edit"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="submit_button">
+     <property name="text">
+      <string>Submit</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

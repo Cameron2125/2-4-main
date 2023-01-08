@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DPIncentiveEdit</class>
+ <widget class="QDialog" name="DPIncentiveEdit">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Data Point</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Points</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QPushButton" name="submit_button">
+     <property name="text">
+      <string>Submit</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1" colspan="2">
+    <widget class="QComboBox" name="dp_combo">
+     <item>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Age</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Location</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Gender</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Ethnicity</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Education</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Occupation</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <widget class="QSpinBox" name="pointSpin">
+     <property name="maximum">
+      <number>200</number>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

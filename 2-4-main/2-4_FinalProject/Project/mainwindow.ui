@@ -1,0 +1,1224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QStackedWidget" name="System">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <widget class="QWidget" name="Login">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_2" rowstretch="0,0">
+        <property name="leftMargin">
+         <number>100</number>
+        </property>
+        <property name="topMargin">
+         <number>100</number>
+        </property>
+        <property name="rightMargin">
+         <number>100</number>
+        </property>
+        <property name="bottomMargin">
+         <number>100</number>
+        </property>
+        <item row="0" column="0">
+         <widget class="QLabel" name="Logo_lab">
+          <property name="text">
+           <string>Logo</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <property name="leftMargin">
+           <number>200</number>
+          </property>
+          <property name="rightMargin">
+           <number>200</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="Login_lab">
+            <property name="text">
+             <string>Login</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+             <widget class="QLabel" name="Username_lab">
+              <property name="text">
+               <string>Username</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="Username_Edit"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <item>
+             <widget class="QLabel" name="Password_lab">
+              <property name="text">
+               <string>Password</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="Password_Edit"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Login_But">
+            <property name="text">
+             <string>Login</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="Organizer_Portal">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_4" rowstretch="0">
+        <property name="leftMargin">
+         <number>100</number>
+        </property>
+        <property name="topMargin">
+         <number>100</number>
+        </property>
+        <property name="rightMargin">
+         <number>100</number>
+        </property>
+        <property name="bottomMargin">
+         <number>100</number>
+        </property>
+        <item row="0" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout_17">
+          <item>
+           <widget class="QPushButton" name="Enter_Contact_But">
+            <property name="text">
+             <string>Enter Contact</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Log_Recruitment_Attempt_But">
+            <property name="text">
+             <string>Log Recruitment Attempt</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Change_Vol_Stat_But">
+            <property name="text">
+             <string>Change Volunteering Status</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="Researcher_Portal">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_6">
+        <property name="leftMargin">
+         <number>100</number>
+        </property>
+        <property name="topMargin">
+         <number>100</number>
+        </property>
+        <property name="rightMargin">
+         <number>100</number>
+        </property>
+        <property name="bottomMargin">
+         <number>100</number>
+        </property>
+        <item row="0" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QPushButton" name="View_Contact_But">
+            <property name="text">
+             <string>View Contacts</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Data_Analysis_But">
+            <property name="text">
+             <string>Data Analysis</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Contact_Relation_But_1">
+            <property name="text">
+             <string>Contact Relations</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="Admin_Portal">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_5">
+        <property name="leftMargin">
+         <number>100</number>
+        </property>
+        <property name="topMargin">
+         <number>100</number>
+        </property>
+        <property name="rightMargin">
+         <number>100</number>
+        </property>
+        <property name="bottomMargin">
+         <number>100</number>
+        </property>
+        <item row="0" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QPushButton" name="Add_Incentive_But">
+            <property name="text">
+             <string>Add Incentive</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Contact_But">
+            <property name="text">
+             <string>Contacts</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Contact_Relation_But_2">
+            <property name="text">
+             <string>Contact Relations</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="Volunteer_Status">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_7">
+        <property name="leftMargin">
+         <number>100</number>
+        </property>
+        <property name="topMargin">
+         <number>100</number>
+        </property>
+        <property name="rightMargin">
+         <number>100</number>
+        </property>
+        <property name="bottomMargin">
+         <number>100</number>
+        </property>
+        <item row="0" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <widget class="QLabel" name="Vol_Stat_Lab">
+            <property name="text">
+             <string>Volunteering Status</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QListWidget" name="Contact_List"/>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <widget class="QPushButton" name="Set_Active_But">
+              <property name="text">
+               <string>Set Active</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="Set_Not_Active_But">
+              <property name="text">
+               <string>Set Not Active</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Return_To_Portal_But">
+            <property name="text">
+             <string>Return To Portal</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="Add_Recruitment_Attempt">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_8">
+        <property name="leftMargin">
+         <number>100</number>
+        </property>
+        <property name="topMargin">
+         <number>100</number>
+        </property>
+        <property name="rightMargin">
+         <number>100</number>
+        </property>
+        <property name="bottomMargin">
+         <number>100</number>
+        </property>
+        <item row="0" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="QLabel" name="FtoF_Contact_Lab">
+            <property name="text">
+             <string>Friend To Friend Contacts</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QListWidget" name="FtoF_Contact_List"/>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <item>
+             <widget class="QLabel" name="Date_Lab">
+              <property name="text">
+               <string>Date (mm/dd/yyyy)</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="Month_Spin">
+              <property name="minimum">
+               <number>1</number>
+              </property>
+              <property name="maximum">
+               <number>12</number>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="Day_Spin">
+              <property name="minimum">
+               <number>1</number>
+              </property>
+              <property name="maximum">
+               <number>31</number>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="Year_Spin">
+              <property name="minimum">
+               <number>2020</number>
+              </property>
+              <property name="maximum">
+               <number>2050</number>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <item>
+             <widget class="QLabel" name="Success_Lab">
+              <property name="text">
+               <string>Was This a Success? (Did the contact volunteer after attempt?)</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="Yes_Box">
+              <property name="text">
+               <string>Yes</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup</string>
+              </attribute>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="No_Box">
+              <property name="text">
+               <string>No</string>
+              </property>
+              <property name="tristate">
+               <bool>false</bool>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup</string>
+              </attribute>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="Not_Sure_Box">
+              <property name="text">
+               <string>Not Sure</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup</string>
+              </attribute>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_6">
+            <item>
+             <widget class="QLabel" name="Length_Lab">
+              <property name="text">
+               <string>Length of Attempt (How long did you communicate with the contact?)</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="Hour_Spin"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="Hr_Lab">
+              <property name="text">
+               <string>hr</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="Minute_Spin"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="min_Lab">
+              <property name="text">
+               <string>min</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_6">
+            <item>
+             <widget class="QLabel" name="Response_Lab">
+              <property name="text">
+               <string>Response (if any)</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QTextEdit" name="Response_Text"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_7">
+            <item>
+             <widget class="QLabel" name="Add_Info_Lab">
+              <property name="text">
+               <string>Additional Inforamtion</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="Add_Info_Line"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Add_Rec_Attempt_But">
+            <property name="text">
+             <string>Add Recruitment Attempt</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Return_To_Portal_But_2">
+            <property name="text">
+             <string>Return to Portal</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="Input_Contacts">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_9">
+        <property name="leftMargin">
+         <number>100</number>
+        </property>
+        <property name="topMargin">
+         <number>100</number>
+        </property>
+        <property name="rightMargin">
+         <number>100</number>
+        </property>
+        <property name="bottomMargin">
+         <number>100</number>
+        </property>
+        <item row="0" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout_7">
+          <item>
+           <widget class="QLabel" name="Inputted_Contacts_Lab">
+            <property name="text">
+             <string>Inputted Contacts</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTableView" name="Contact_Table"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="Time_to_Input_Lab">
+            <property name="text">
+             <string>Inputted # Contacts in # sec</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_8">
+            <item>
+             <widget class="QPushButton" name="Input_Contacts_Man_But">
+              <property name="text">
+               <string>Enter Contact Manually</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="Input_Contacts_csv_But">
+              <property name="text">
+               <string>Enter Contact from .csv</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Edit_Contact_But">
+            <property name="text">
+             <string>Edit Selected Contact</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Delete_Contact_But">
+            <property name="text">
+             <string>Delete Selected Contact</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Return_To_Portal_But_3">
+            <property name="text">
+             <string>Return to Portal</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="Input_Contact_Man">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_10">
+        <property name="leftMargin">
+         <number>100</number>
+        </property>
+        <property name="topMargin">
+         <number>100</number>
+        </property>
+        <property name="rightMargin">
+         <number>100</number>
+        </property>
+        <property name="bottomMargin">
+         <number>100</number>
+        </property>
+        <item row="0" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout_9">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_8">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_9">
+              <item>
+               <widget class="QLabel" name="Name_Lab">
+                <property name="text">
+                 <string>Name</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="Name_Line"/>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_10">
+              <item>
+               <widget class="QLabel" name="Age_Lab">
+                <property name="text">
+                 <string>Age</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QSpinBox" name="Age_Spin">
+                <property name="maximum">
+                 <number>150</number>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_11">
+              <item>
+               <widget class="QLabel" name="Location_Lab">
+                <property name="text">
+                 <string>Location</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="Location_Line"/>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_12">
+              <item>
+               <widget class="QLabel" name="Gender_Lab">
+                <property name="text">
+                 <string>Gender</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="Gender_Line"/>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_13">
+              <item>
+               <widget class="QLabel" name="Ethnicity_Lab">
+                <property name="text">
+                 <string>Ethnicity</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="Ethnicity_Line"/>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_14">
+              <item>
+               <widget class="QLabel" name="Education_Lab">
+                <property name="text">
+                 <string>Education</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="Education_Line"/>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_15">
+              <item>
+               <widget class="QLabel" name="Occupation_Lab">
+                <property name="text">
+                 <string>Occupation</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="Occupation_Line"/>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_16">
+              <item>
+               <widget class="QLabel" name="Email_Lab">
+                <property name="text">
+                 <string>Email</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="Email_Line"/>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_17">
+              <item>
+               <widget class="QLabel" name="Phone_Num_Lab">
+                <property name="text">
+                 <string>Phone Number</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="Phone_Num_Line"/>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_18">
+              <item>
+               <widget class="QLabel" name="Add_Info_Lab_2">
+                <property name="text">
+                 <string>Additional Information</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="Add_Info_Line_2"/>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Add_Contact_But">
+            <property name="text">
+             <string>Add Contact</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Return_to_Add_Contact_But">
+            <property name="text">
+             <string>Return to Add Contacts Portal</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="Edit_Contact_Data">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_11">
+        <property name="leftMargin">
+         <number>100</number>
+        </property>
+        <property name="topMargin">
+         <number>100</number>
+        </property>
+        <property name="rightMargin">
+         <number>100</number>
+        </property>
+        <property name="bottomMargin">
+         <number>100</number>
+        </property>
+        <item row="0" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout_12">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_19">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_10">
+              <item>
+               <widget class="QLabel" name="Current_Data_Lab">
+                <property name="text">
+                 <string>Current</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="Current_Data_Line">
+                <property name="readOnly">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <widget class="QLabel" name="Change_to_Lab">
+              <property name="text">
+               <string>Change to</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_11">
+              <item>
+               <widget class="QLabel" name="New_Data_Lab">
+                <property name="text">
+                 <string>New</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="New_Data_Line"/>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Edit_Data_But">
+            <property name="text">
+             <string>Edit Data</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="Edit_Incentives">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_12">
+        <property name="leftMargin">
+         <number>100</number>
+        </property>
+        <property name="topMargin">
+         <number>100</number>
+        </property>
+        <property name="rightMargin">
+         <number>100</number>
+        </property>
+        <property name="bottomMargin">
+         <number>100</number>
+        </property>
+        <item row="0" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout_13">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_21">
+            <item>
+             <widget class="QLabel" name="Data_Point_Inc_Lab">
+              <property name="text">
+               <string>Data Point Incentives</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="Task_Based_Inc_Lab">
+              <property name="text">
+               <string>Task Based Incentives</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_20">
+            <item>
+             <widget class="QTableView" name="DP_Table"/>
+            </item>
+            <item>
+             <widget class="QTableView" name="TB_Table"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_22">
+            <item>
+             <widget class="QPushButton" name="Add_DP_Inc_But">
+              <property name="text">
+               <string>Add Data Point Incentive</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="Add_TB_Inc_But">
+              <property name="text">
+               <string>Add Task Based Incentive</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_23">
+            <item>
+             <widget class="QPushButton" name="Remove_DP_Inc_But">
+              <property name="text">
+               <string>Remove Selected Data Point Incentive</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="Remove_TB_Inc_But">
+              <property name="text">
+               <string>Remove Selected Task Based Incentive</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Return_To_Portal_But_4">
+            <property name="text">
+             <string>Return to Portal</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="Edit_DP_Incentive">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_13">
+        <property name="leftMargin">
+         <number>100</number>
+        </property>
+        <property name="topMargin">
+         <number>100</number>
+        </property>
+        <property name="rightMargin">
+         <number>100</number>
+        </property>
+        <property name="bottomMargin">
+         <number>100</number>
+        </property>
+        <item row="0" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout_14">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_24">
+            <item>
+             <widget class="QLabel" name="Data_Point_Lab">
+              <property name="text">
+               <string>Data Point</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="Data_Points_Combo">
+              <item>
+               <property name="text">
+                <string>Name</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Age</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Location</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Gender</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Ethnicity</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Education</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Occupation</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Email</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Phone_Number</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_25">
+            <item>
+             <widget class="QLabel" name="Points_Lab">
+              <property name="text">
+               <string>Points</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="Points_Spin"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Add_DP_Inc_But_2">
+            <property name="text">
+             <string>Add Data Point Incentive</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="Task_Based_Incentive">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_14">
+        <property name="leftMargin">
+         <number>100</number>
+        </property>
+        <property name="topMargin">
+         <number>100</number>
+        </property>
+        <property name="rightMargin">
+         <number>100</number>
+        </property>
+        <property name="bottomMargin">
+         <number>100</number>
+        </property>
+        <item row="0" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout_15">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_26">
+            <item>
+             <widget class="QLabel" name="Task_Name_Lab">
+              <property name="text">
+               <string>Task Name</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="Task_Name_Line"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_27">
+            <item>
+             <widget class="QLabel" name="Points_Lab_2">
+              <property name="text">
+               <string>Points</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="Points_Spin_2"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Add_TB_Incentive_But">
+            <property name="text">
+             <string>Add Task Based Incentive</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="All_Contacts">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_15">
+        <property name="leftMargin">
+         <number>100</number>
+        </property>
+        <property name="topMargin">
+         <number>100</number>
+        </property>
+        <property name="rightMargin">
+         <number>100</number>
+        </property>
+        <property name="bottomMargin">
+         <number>100</number>
+        </property>
+        <item row="0" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout_16">
+          <item>
+           <widget class="QLabel" name="Contacts_Lab">
+            <property name="text">
+             <string>Contacts</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTableView" name="All_Contacts_Table"/>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Return_To_Portal_But_5">
+            <property name="text">
+             <string>Return To Portal</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="Score_Board"/>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup"/>
+ </buttongroups>
+</ui>

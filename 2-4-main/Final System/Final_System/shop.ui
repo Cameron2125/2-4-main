@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Shop</class>
+ <widget class="QMainWindow" name="Shop">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Shop</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="1" column="0">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="4" column="0">
+       <widget class="QLabel" name="label_9">
+        <property name="styleSheet">
+         <string notr="true">image: url(:/images/resources/shop9.PNG);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="3">
+       <widget class="QLabel" name="label_15">
+        <property name="styleSheet">
+         <string notr="true">image: url(:/images/resources/shop12.PNG);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label">
+        <property name="styleSheet">
+         <string notr="true">image: url(:/images/resources/shop5.PNG);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="label_3">
+        <property name="styleSheet">
+         <string notr="true">
+image: url(:/images/resources/shop2.PNG);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QLabel" name="label_6">
+        <property name="styleSheet">
+         <string notr="true">image: url(:/images/resources/shop7.PNG);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="pushButton">
+        <property name="text">
+         <string>BUY FOR 400 POINTS</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QLabel" name="label_7">
+        <property name="styleSheet">
+         <string notr="true">image: url(:/images/resources/cool goblin drawing.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QPushButton" name="pushButton_4">
+        <property name="text">
+         <string>BUY FOR 800</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QPushButton" name="pushButton_10">
+        <property name="text">
+         <string>BUY FOR 350</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label_5">
+        <property name="styleSheet">
+         <string notr="true">image: url(:/images/resources/Image from iOS.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="text">
+         <string>BUY FOR 500</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="styleSheet">
+         <string notr="true">
+image: url(:/images/resources/shop1.PNG);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="text">
+         <string>BUY FOR 250</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QPushButton" name="pushButton_5">
+        <property name="text">
+         <string>BUY FOR 1500</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLabel" name="label_4">
+        <property name="styleSheet">
+         <string notr="true">image: url(:/images/resources/shop6.PNG);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QLabel" name="label_12">
+        <property name="styleSheet">
+         <string notr="true">image: url(:/images/resources/shop14.PNG);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="3">
+       <widget class="QLabel" name="label_16">
+        <property name="styleSheet">
+         <string notr="true">image: url(:/images/resources/shop16.PNG);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="3">
+       <widget class="QPushButton" name="pushButton_12">
+        <property name="text">
+         <string>BUY FOR 500</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QPushButton" name="pushButton_6">
+        <property name="text">
+         <string>BUY FOR 1500</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="3">
+       <widget class="QPushButton" name="pushButton_8">
+        <property name="text">
+         <string>BUY FOR 300</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLabel" name="label_11">
+        <property name="styleSheet">
+         <string notr="true">image: url(:/images/resources/shop13.PNG);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="2">
+       <widget class="QPushButton" name="pushButton_11">
+        <property name="text">
+         <string>BUY FOR 1000</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLabel" name="label_10">
+        <property name="styleSheet">
+         <string notr="true">image: url(:/images/resources/shop10.PNG);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="QPushButton" name="pushButton_7">
+        <property name="text">
+         <string>BUY FOR 200</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="2">
+       <widget class="QLabel" name="label_13">
+        <property name="styleSheet">
+         <string notr="true">image: url(:/images/resources/shop11.PNG);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="QLabel" name="label_8">
+        <property name="styleSheet">
+         <string notr="true">image: url(:/images/resources/shop8.PNG);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QPushButton" name="pushButton_9">
+        <property name="text">
+         <string>BUY FOR 1000</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="2">
+       <widget class="QLabel" name="label_14">
+        <property name="styleSheet">
+         <string notr="true">image: url(:/images/resources/shop15.PNG);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0">
+       <widget class="QPushButton" name="pushButton_13">
+        <property name="text">
+         <string>BUY FOR 800</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="1">
+       <widget class="QPushButton" name="pushButton_14">
+        <property name="text">
+         <string>BUY FOR 750</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="2">
+       <widget class="QPushButton" name="pushButton_15">
+        <property name="text">
+         <string>BJY FOR 700</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="3">
+       <widget class="QPushButton" name="pushButton_16">
+        <property name="text">
+         <string>BUY FOR 150</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_17">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>200</height>
+       </size>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::PreventContextMenu</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 28pt &quot;Arial&quot;;</string>
+      </property>
+      <property name="text">
+       <string>SHOP</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>17</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

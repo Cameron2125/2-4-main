@@ -1,0 +1,6 @@
+LID,Username,Password,Role,Email
+1,deckermh,password,Organizer,rvfn
+50,admin97,12345,Admin,test
+100,researcher1,123,Researcher,res1@mail.com
+6,fowlersp,123,Organizer,email
+7,fow1,123,Admin,email

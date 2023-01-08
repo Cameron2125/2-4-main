@@ -1,0 +1,4 @@
+The full system can be found by navigating through to the folder 'Final System'/Final_System and opening the Final_System.pro file found in that folder. Once that file is open, the system can be built directly from Qt Creator as there are no additional projects that will interfere with it.
+Ensure that the working directory that Qt is using (found under the Run section of the Projects tab in Qt) is the Final_System directory. Anything above that or deeper than that will not work.
+
+If the version of Qt Creator being used does not include Qt Charts, it must be downloaded from the Qt Maintenance Tool. This can be done by opening the Qt Maintenence Tool to the "Add or remove components" option and selecting Qt Charts to download. Once Qt Charts has been downloaded, the system can be run with no issues.

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>incentivePortal</class>
+ <widget class="QDialog" name="incentivePortal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1100</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1100</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1100</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="removeTask_button">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>10</y>
+     <width>391</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Remove Selected Task Incentive</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="removeDataPt_button">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>10</y>
+     <width>391</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Remove Selected Data Point Incentive</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>230</y>
+     <width>392</width>
+     <height>468</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="dataPt_label">
+      <property name="text">
+       <string>Data Point Incentives</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QListWidget" name="dataPt_list">
+      <property name="minimumSize">
+       <size>
+        <width>390</width>
+        <height>450</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>390</width>
+        <height>450</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>230</y>
+     <width>392</width>
+     <height>468</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="task_label">
+      <property name="text">
+       <string>Task Incentives</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QListWidget" name="task_list">
+      <property name="minimumSize">
+       <size>
+        <width>390</width>
+        <height>450</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>390</width>
+        <height>450</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="addDataPt_button">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>110</y>
+     <width>391</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add Data Point Incentive</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addTask_button">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>110</y>
+     <width>391</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add Task Incentive</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

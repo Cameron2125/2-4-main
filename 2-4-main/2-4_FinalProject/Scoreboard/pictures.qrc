@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../../resources/scoreBoardBackground.PNG</file>
+        <file>../../resources/Capture.PNG</file>
+        <file>../../resources/leaderboard.PNG</file>
+        <file>../../resources/bronzemetal-removebg-preview.png</file>
+        <file>../../resources/goldmetal-removebg-preview.png</file>
+        <file>../../resources/silvermetal-removebg-preview.png</file>
+    </qresource>
+</RCC>

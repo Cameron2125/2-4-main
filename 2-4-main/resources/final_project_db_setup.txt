@@ -1,0 +1,100 @@
+create table Organizer(
+VID INTEGER primary key unique not null,
+Name TEXT not null,
+Age INTEGER,
+Location TEXT,
+Gender TEXT,
+Ethnicity TEXT,
+Education TEXT,
+Occupation TEXT,
+Overall_Points INTEGER,
+LID INTEGER
+);
+
+create table Contacts(
+VID INTEGER not null,
+Contact_Type INTEGER,
+CID INTEGER not null,
+Name TEXT not null,
+Age INTEGER,
+Location TEXT,
+Gender TEXT,
+Ethnicity TEXT,
+Education TEXT,
+Occupation TEXT,
+Email TEXT,
+Phone_Number TEXT,
+Contact_Status INTGER,
+Additional_Info TEXT,
+AID INTEGER
+);
+
+create table Researcher(
+RID INTEGER primary key unique not null,
+LID INTEGER
+);
+
+create table Admin(
+RID INTEGER primary key unique not null,
+LID INTEGER
+);
+
+create table Login(
+LID INTERGER primary key unique not null, 
+Username TEXT not null,
+Password TEXT not null,
+Role INTEGER not null,
+Email TEXT
+);
+
+create table Recruitment_Attempts(
+CID INTEGER not null,
+Attempt_Number INTEGER not null,
+Date TEXT,
+Sucess INTEGER,
+Length INTEGER,
+Response TEXT,
+Form_of_Contact TEXT,
+Additional_Info TEXT
+);
+
+create table Incentives(
+IID INTEGER unique not null,
+Data_Name TEXT not null,
+Points INTEGER not null,
+Type Integer not null
+);
+
+create table Point_History(
+HID INTEGER primary key not null,
+VID INTEGER not null,
+Point_Origin TEXT,
+Point_Value INTEGER not null,
+Date TEXT
+);
+
+insert into Organizer
+(VID, Name, Age, Location, Gender, Ethnicity, Education, Occupation,Overall_Points, LID) 
+values (1,	'Paola Bentley',	21,	'Woburn (US)',	'f',	'Hispanic',	'College',	'Student',	0,1
+);
+
+insert into Organizer
+(VID, Name, Age, Location, Gender, Ethnicity, Education, Occupation,Overall_Points, LID) 
+values 
+(2, 'Rex Bullock',21, 'Menominee (US)','m',	'White',	'College',	'Student',	0, 2);
+
+insert into Organizer
+(VID, Name, Age, Location, Gender, Ethnicity, Education, Occupation,Overall_Points, LID) 
+values 
+(3,'Bruce Gallagher',20,'Portland (US)', 'm','White','College','Student',0,3);
+
+insert into Organizer
+(VID, Name, Age, Location, Gender, Ethnicity, Education, Occupation,Overall_Points, LID) 
+values 
+(4,'Molly Sosa',19,'Granite City (US)','f','Hispanic','College','Student',0,4);
+
+insert into Organizer
+(VID, Name, Age, Location, Gender, Ethnicity, Education, Occupation,Overall_Points, LID) 
+values 
+(5,'Danica Kramer',18,'Wisconsin Dells (US)','f','Black','College','Student',0,5);
+

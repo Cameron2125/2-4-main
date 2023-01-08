@@ -1,0 +1,4 @@
+The system can be built directly from Qt Creator. There are no additional projects so building it will automatically build the entire system.
+Ensure that the working directory that Qt is using (found under the Run section of the Projects tab in Qt) is the Final_System directory. Anything above that or deeper than that will not work.
+
+If the version of Qt Creator being used does not include Qt Charts, it must be downloaded from the Qt Maintenance Tool. This can be done by opening the Qt Maintenence Tool to the "Add or remove components" option and selecting Qt Charts to download. Once Qt Charts has been downloaded, the system can be run with no issues.

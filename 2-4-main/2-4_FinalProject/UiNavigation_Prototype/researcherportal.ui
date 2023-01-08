@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>researcherPortal</class>
+ <widget class="QDialog" name="researcherPortal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1100</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1100</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1100</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="welcome_label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>600</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Welcome, [user]</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="viewContacts_button">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>60</y>
+     <width>1020</width>
+     <height>210</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 155, 155);</string>
+   </property>
+   <property name="text">
+    <string>View Contacts</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="dataAnalysis_button">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>280</y>
+     <width>360</width>
+     <height>360</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;</string>
+   </property>
+   <property name="text">
+    <string>Data Analysis</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="contactRelationships_button">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>280</y>
+     <width>641</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(199, 205, 255);</string>
+   </property>
+   <property name="text">
+    <string>Contact Relationships</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
